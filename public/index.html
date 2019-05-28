@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nick's Bar Chart</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="./main.js"></script>
+</head>
+
+<body id="body">
+
+  <nav class="creationMenu">
+    <form id="create"><h1>Create Bar Menu</h1>
+      <!-- Create a label and input field for the size of the bar -->
+      <label for="size">Size of bar</label>
+      <input type="number" id="size">
+
+       <select id ='color' name="color">
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="blue">blue</option>
+        <option value="pink">pink</option>
+      </select>
+
+      <label for="name">Label of bar</label>
+      <input type="text" id="name">
+
+      <select id ='colorLab' name="colorLab">
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="blue">blue</option>
+        <option value="pink">pink</option>
+      </select>
+
+      <label>Position of Value</label>
+      <select id ='pos' name="pos">
+        <option value="top">top</option>
+        <option value="middle">middle</option>
+        <option value="bottom">bottom</option>
+      </select>
+
+      <label for="spaceBtwn" required>Space Between Bars</label>
+      <input type="number" id="spaceBtwn" required>
+
+      <br>
+      <button id="addBar" >Add Bar</button>
+
+      <br>
+      <br>
+          <label for="Title">Title of Chart</label>
+          <input type="text" id="Title">
+
+          <label for="fntSize">Size of Title Font</label>
+          <input type="number" id="fntSize">
+
+          <select id ='fntColor' name="fntColor">
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="blue">blue</option>
+            <option value="pink">pink</option>
+           </select>
+
+          <label for="yAxisInterval">Interval of Y axis</label>
+          <input type="number" id="yAxisInterval">
+
+      <label for="width">Width of chart</label>
+      <input type="number" id="width">
+
+      <label for="height" >Height of chart</label>
+      <input type="number" id="height">
+      <br>
+      <br>
+      <button id="makeChart">Make Chart</button>
+    </form>
+  </nav>
+
+      <div id="container"></div>
+
+<div id="neva"> Never Give Up</div>
+</body>
+</html>
