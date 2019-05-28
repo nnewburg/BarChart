@@ -1,0 +1,41 @@
+#create{
+  color: red;
+  border: 5px blue solid;
+  height: 700px;
+  width: 50px:;
+  float: left;
+  background-color: #A0DD95;
+}
+
+input,
+  label{
+  display: block;
+}
+
+body{
+  background-color: gray;
+}
+
+#box{
+  position: absolute;
+  left: 300px;
+  top: 70px;
+  height: 150px;
+  width: 150px;
+  border: 5px blue solid;
+  background-color: white;
+}
+
+#container{
+  position: absolute;
+  left: 300px;
+}
+
+#neva{
+  position: absolute;
+  top: 600px;
+  width: 100px;
+  height: 30px;
+  background-color: green;
+  border: 5px black solid;
+}
