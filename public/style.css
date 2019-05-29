@@ -31,11 +31,3 @@ body{
   left: 300px;
 }
 
-#neva{
-  position: absolute;
-  top: 600px;
-  width: 100px;
-  height: 30px;
-  background-color: green;
-  border: 5px black solid;
-}
